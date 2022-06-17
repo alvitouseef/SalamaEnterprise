@@ -1,0 +1,109 @@
+﻿.form-select {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='yellow' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e") !important;
+    border: 1px solid #ffeb3b !important;
+    line-height: 2;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+a {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+.fa {
+    color: #ffeb3b;
+}
+
+:root {
+    --bs-gray: yellow;
+    --bs-table-bg: yellow;
+}
+
+.breadcrumbs {
+    border: 1px solid yellow;
+    border-radius: 0.75rem;
+    display: inline-flex;
+    overflow: hidden;
+}
+
+.breadcrumbs__item {
+    background: yellow;
+    color: green;
+    outline: none;
+    padding: 0.75em 0.75em 0.75em 1.25em;
+    position: relative;
+    text-decoration: none;
+    transition: background 0.2s linear;
+}
+
+    .breadcrumbs__item:hover:after,
+    .breadcrumbs__item:hover {
+        background: #edf1f5;
+    }
+
+    .breadcrumbs__item:focus:after,
+    .breadcrumbs__item:focus,
+    .breadcrumbs__item.is-active:focus {
+        background: #323f4a;
+        color: #fff;
+    }
+
+    .breadcrumbs__item:after,
+    .breadcrumbs__item:before {
+        background: yellow;
+        bottom: 0;
+        clip-path: polygon(50% 50%, -50% -50%, 0 100%);
+        content: "";
+        left: 100%;
+        position: absolute;
+        top: 0;
+        transition: background 0.2s linear;
+        width: 1em;
+        z-index: 1;
+    }
+
+    .breadcrumbs__item:before {
+        background: yellow;
+        margin-left: 1px;
+    }
+
+    .breadcrumbs__item:last-child {
+        border-right: none;
+    }
+
+    .breadcrumbs__item.is-active, .breadcrumbs__item.is-active.breadcrumbs__item:after,
+    .breadcrumbs__item.is-active.breadcrumbs__item:before {
+        background: #004700;
+        color: yellow;
+    }
+
+    .breadcrumbs__item.item-sec, .breadcrumbs__item.item-sec:after,
+    .breadcrumbs__item.item-sec:before {
+        background: #ffc107;
+    }
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+    --bs-table-accent-bg: #ffeb3b40;
+}
+
+.table {
+    border-collapse: inherit;
+}
+
+    .table > thead > tr > th {
+        background-color: yellow;
+    }
+
+th {
+    font-weight: 500;
+    ;
+    font-size: 14px;
+    text-align: center;
+    background: yellow;
+}
